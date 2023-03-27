@@ -2,29 +2,25 @@
 
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="id">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="id">http://www.gutenberg.org/ebooks/25545</dc:identifier>
-		<meta property="dcterms:modified">2010-02-17T04:39:13Z</meta>
-
-		<dc:title id="t1">Children's Literature</dc:title>
-		<meta refines="#t1" property="title-type">main</meta>
-		<meta refines="#t1" property="display-seq">1</meta>
-
-		<dc:title id="t2">A Textbook of Sources for Teachers and Teacher-Training Classes</dc:title>
-		<meta refines="#t2" property="title-type">subtitle</meta>
-		<meta refines="#t2" property="display-seq">2</meta>
-
-		<dc:creator id="curry">Charles Madison Curry</dc:creator>
-		<meta property="file-as" refines="#curry">Curry, Charles Madison</meta>
-
-		<dc:creator id="clippinger">Erle Elsworth Clippinger</dc:creator>
-		<meta property="file-as" refines="#clippinger">Clippinger, Erle Elsworth</meta>
-
+		<dc:identifier id="epub-id">http://www.gutenberg.org/ebooks/25545</dc:identifier>
+		
+		<dc:title id="t1">Where the wild things are</dc:title>
+		
 		<dc:language>en</dc:language>
+		
+		<meta property="dcterms:modified">2023-03-27T16:30:13Z</meta>
+		
+		<dc:description>Max, a wild and naughty boy, is sent to bed without his supper by his exhausted mother. In his room, he imagines sailing far away to a land of Wild Things. Instead of eating him, the Wild Things make Max their king.</dc:description>
 
-		<dc:date>2008-05-20</dc:date>
+		<dc:creator id="creator">Maurice Sendak</dc:creator>
+		<meta refines="#creator" property="role" scheme="marc:relators" id="role">aut</meta>
 
-		<dc:subject>Children -- Books and reading</dc:subject>
-		<dc:subject>Children's literature -- Study and teaching</dc:subject>
+		<dc:contibutor id="contributor">Maurice Sendak</dc:contributor>
+		<meta refines="#contributor" property="role" scheme="marc:relators" id="role">ill</meta>
+
+		<dc:date>1963-04-09</dc:date>
+
+		<dc:subject id="subject01">FICTION / Occult &amp; Supernatural</dc:subject>
 
 		<dc:source>http://www.gutenberg.org/files/25545/25545-h/25545-h.htm</dc:source>
 		<dc:rights>Public domain in the USA.</dc:rights>
